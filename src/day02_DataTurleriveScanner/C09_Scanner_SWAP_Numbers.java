@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class C09_Scanner_SWAP_Numbers {
     public static void main(String[] args) {
     //Kullanicidan iki sayi alip ikisinin degerlerini degistirin(swap).
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen ilk sayiyi giriniz");
         double sayi1 = scanner.nextDouble();

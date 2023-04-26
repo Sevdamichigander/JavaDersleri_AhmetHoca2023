@@ -15,7 +15,7 @@ public class C04_Scanner {
 
 
         int girilenSayi = scanner.nextInt();                   // 3- Kullanicinin girdigi degeri alabilmesi icin Scanner
-                                                                // classindan uygun method u kullananip kullanicidan degeri alin
+                                                                // classindan uygun method u kullanip, kullanicidan degeri alin
                                                                 // ve olusturdugumuz variable a atayin.
 
         System.out.println("Girdigimiz sayinin 2 kati : " + 2*girilenSayi);
