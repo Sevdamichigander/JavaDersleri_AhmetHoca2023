@@ -16,8 +16,10 @@ public class C02_NestedIfElse_CinsiyeteGore {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen Cinsiyetinizi giriniz, \nKadin icin : K, Erkek icin E");
         char cinsiyet = scanner.next().toUpperCase().charAt(0);
+
         System.out.println("Lutfen yasinizi giriniz");
         int yas = scanner.nextInt();
+
         if (cinsiyet == 'K'){ // Burada sadace kadinlar var
             // buraya kadinlar icin ikinci degisken olan yas'a gore if else olusturalim
             if (yas<10 || yas>80){

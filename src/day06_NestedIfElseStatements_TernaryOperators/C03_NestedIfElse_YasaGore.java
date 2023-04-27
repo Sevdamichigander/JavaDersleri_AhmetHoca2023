@@ -18,6 +18,7 @@ public class C03_NestedIfElse_YasaGore {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen Cinsiyetinizi giriniz, \nKadin icin : K, Erkek icin E");
         char cinsiyet = scanner.next().toUpperCase().charAt(0);
+
         System.out.println("Lutfen yasinizi giriniz");
         int yas = scanner.nextInt();
 

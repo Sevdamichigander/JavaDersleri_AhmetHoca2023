@@ -9,6 +9,7 @@ public class C04_DataCasting {
 
         // String bir ifade baska turdeki variable veya degerlerle isleme girerse
         // onlari da stringlestirir.
+
         String str = sayi + ""; //10
         System.out.println(str.charAt(0)); //1
         str = bl + "";
