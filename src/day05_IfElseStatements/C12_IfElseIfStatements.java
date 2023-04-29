@@ -11,11 +11,7 @@ public class C12_IfElseIfStatements {
 //         Hem 3, hem 5'e bolunuyorsa SUPER yazdirin
         // Ikisine de bolunemeyen sayilar icin YAZIK yazdirin
 
-        // Soru 3- Kullanicidan bir sayi alin,
-        //         sayi 3 ile bolunuyorsa ”Uc ile bolunebilen sayi”,
-        //         5 ile bolunebiliyorsa “Bes ile bolunebilen sayi” yazdirin.
-        //         Hem 3, hem 5'e bolunuyorsa SUPER yazdirin
-        //         ikisine de bolunemeyen sayilar icin YAZIK yazdirin
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen bir tamsayi giriniz");
         int girilenSayi= scanner.nextInt();
