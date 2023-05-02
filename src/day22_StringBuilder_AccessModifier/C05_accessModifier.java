@@ -2,7 +2,7 @@ package day22_StringBuilder_AccessModifier;
 
 public class C05_accessModifier {
 
-    C05_accessModifier(){
+    protected C05_accessModifier(){
 
 
     }
