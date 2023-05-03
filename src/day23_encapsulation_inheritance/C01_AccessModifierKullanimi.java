@@ -1,6 +1,6 @@
-package day_23_encapsulation_inheritance;
+package day23_encapsulation_inheritance;
 import day22_StringBuilder_AccessModifier.C05_accessModifier;
-import java.util.Collections;
+
 public class C01_AccessModifierKullanimi extends C05_accessModifier{
     public static void main(String[] args) {
         // baska package'daki bir class'dan class uyelerinin

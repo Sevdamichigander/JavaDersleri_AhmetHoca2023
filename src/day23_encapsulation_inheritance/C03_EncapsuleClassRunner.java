@@ -1,4 +1,4 @@
-package day_23_encapsulation_inheritance;
+package day23_encapsulation_inheritance;
 
 public class C03_EncapsuleClassRunner {
         public static void main(String[] args) {
