@@ -5,7 +5,7 @@ public class C05_indexOf {
 
         String str = "Java en iyisi";
 
-        // indexOf methodu aranana yazi parcaciklarinin, yazi icerisindeki index ini bize dondurur
+        // indexOf methodu aranan yazi parcaciklarinin, yazi icerisindeki index ini bize dondurur
 
         // n harfinin yerini ogrenmek istedigimde
 

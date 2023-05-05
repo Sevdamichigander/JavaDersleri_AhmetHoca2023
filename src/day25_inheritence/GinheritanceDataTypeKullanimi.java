@@ -16,6 +16,7 @@ public class GinheritanceDataTypeKullanimi {
         // Integer dnm1= str;  String is-a Integer diyemeyiz
         ArrayList<String> isimler1 = new ArrayList<>();
         List<String> isimler2 = new ArrayList<>(); // ArrayList is-a List
+
         // ArrayList AbstractList'in Child'i
         // AbstractList'de List'in Child'i
         /*
