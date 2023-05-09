@@ -1,6 +1,4 @@
-package day25_inheritence;
-
-import day24_Inheritance.FCorolla;
+package day25_inheritance;
 
 public class Corolla extends BToyota {
     Corolla() {

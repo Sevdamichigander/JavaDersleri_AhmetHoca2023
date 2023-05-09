@@ -17,10 +17,6 @@ public class C02_NestedForLoops_YildizlardanKare_Dikdortgen {
         int satirSayisi = 4;
         int sutunSayisi = 5;
 
-        /*for (int i = 1; i < sutunSayisi; i++) {
-            System.out.print("*");
-        }
-        System.out.println(""); // Alt satira inmek icin yaptik*/
 
         for (int i = 1; i < satirSayisi; i++) {
             for (int j = 1; j <sutunSayisi ; j++) {

@@ -1,4 +1,4 @@
-package day25_inheritence;
+package day25_inheritance;
 
 public class DHemsire {
 

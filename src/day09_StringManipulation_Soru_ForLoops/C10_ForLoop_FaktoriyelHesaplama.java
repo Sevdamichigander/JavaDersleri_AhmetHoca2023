@@ -7,6 +7,7 @@ public class C10_ForLoop_FaktoriyelHesaplama {
 
         int sayi = 10;
         int faktoryel=1;
+
         for (int i = sayi; i >=1 ; i--) {
             faktoryel *= i;
         }

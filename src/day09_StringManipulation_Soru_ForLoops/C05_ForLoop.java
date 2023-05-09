@@ -24,8 +24,11 @@ public class C05_ForLoop {
 
         // 1 den 100 e kadar olan sayilari yazdirin (Baslangic degeri, artis/azalis miktari ve bitis sarti onemli)
 
-        // 3 basamakli cift sayilari toplayin (3 basamkli ilk cift sayi 100, toplama diye bir variable al, 102 yi ekle, 104 u ekle...1000 e kadar)
-        //Verilen bir sayinin rakamlar toplamini bulun(1453, modulus 10 ile 3 u al, rakamlar toplamina 3 u ekle. sonra /10 deyip 3 ten kurtul. 145; maodulus 10 deyip birler basamagini bul, 10 a bol bundan lurtul...)
+        // 3 basamakli cift sayilari toplayin
+        // (3 basamkli ilk cift sayi 100, toplama diye bir variable al, 102 yi ekle, 104 u ekle...1000 e kadar)
+        //Verilen bir sayinin rakamlar toplamini bulun
+        // (1453, modulus 10 ile 3 u al, rakamlar toplamina 3 u ekle. sonra /10 deyip 3 ten kurtul. 145;
+        // modulus 10 deyip birler basamagini bul, 10 a bol bundan lurtul...)
 
         // 1 den 100 e kadar(100 dahil) olan sayilari yazdirin
 
