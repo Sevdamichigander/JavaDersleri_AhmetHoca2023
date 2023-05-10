@@ -2,7 +2,8 @@ package day14_Arrays_MehmetHocaileSoruCozumu;
 
 import java.util.Arrays;
 
-public class C03_EnBuyukEnKucukElemanYazdirma {
+public class
+C03_EnBuyukEnKucukElemanYazdirma {
     public static void main(String[] args) {
        /*
        BIr arrayin en buyuk ve en kucuk elemanini yazdirin
