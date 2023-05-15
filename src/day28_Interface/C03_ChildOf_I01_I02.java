@@ -32,46 +32,27 @@ public class C03_ChildOf_I01_I02 extends C04_Toyota implements I01_Interface, I0
         System.out.println(I02_Interface.SAYI); // 30
         System.out.println(DERS);
 
-
-        System.out.println(Integer.MIN_VALUE);
-        System.out.println(Math.PI);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(I01_Interface.SAYI); // 20
-        System.out.println(I02_Interface.SAYI); // 30
-        System.out.println(DERS);
-
-
         System.out.println(Integer.MIN_VALUE);
         System.out.println(Math.PI);
     }
 
     @Override
     public void method1() {
-
     }
-
     @Override
     public int method2() {
         return 0;
     }
-
     @Override
     public String method3() {
         return null;
     }
-
     @Override
     public void method4() {
-
     }
-
     @Override
     public void method6() {
-
     }
-
     @Override
     public void method7() {
 
