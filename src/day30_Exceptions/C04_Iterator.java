@@ -51,7 +51,7 @@ public class C04_Iterator {
         System.out.println(sayilar);
 
         Iterator itr= sayilar.iterator();
-
+        /*
         itr.next();
         itr.remove();
 
@@ -63,6 +63,14 @@ public class C04_Iterator {
 
         itr.next();
         itr.remove();
+        */
+
+        // 4 kere ayni kodu tekrar etmek yerine while loop yaptik
+
+        while(itr.hasNext()){
+            itr.next();
+            itr.remove();
+        }
 
         System.out.println(sayilar); //  []
 
