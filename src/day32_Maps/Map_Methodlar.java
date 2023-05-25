@@ -7,10 +7,14 @@ import java.util.Set;
 
 public class Map_Methodlar {
 
-    // bu class'da static method'lar olusturalim ki
-    // her yerden class ismi ile kullanabilelim
-    // map ve ogrenci numarasi verdigimizde, istenen formatta isim soyisim bilgisini
-    // bize donduren bir method olusturalim
+    /*
+
+    bu class'da static method'lar olusturalim ki
+    her yerden class ismi ile kullanabilelim
+    map ve ogrenci numarasi verdigimizde, istenen formatta isim soyisim bilgisini
+    bize donduren bir method olusturalim
+
+     */
 
     public static String numaraIleOgrenciBulma(Map<Integer,String> ogrenciMap,int ogrenciNo){
 
@@ -57,10 +61,12 @@ public class Map_Methodlar {
 
         Set<Integer> ogrenciKeySeti= ogrenciMap.keySet(); // [101, 102, 103, 104, 105, 106]
 
+
         // tum key'leri tek tek ele alip
         // o key'e ait isim ve soyismi, yukaridaki method'u kullanarak yazdiralim
 
         int siraNo=1;
+
         for (Integer eachKey: ogrenciKeySeti
         ) {
             // her bir key'e ait isim soyismi yazdiralim
@@ -79,6 +85,7 @@ public class Map_Methodlar {
         // herbir value'yu gozden gecirmeliyiz
 
         int siraNo=1;
+
         for (String eachValue: valueCollection
 
         ) { // Ali-Can-11-H-MF
@@ -137,4 +144,25 @@ public class Map_Methodlar {
 
     return  ogrenciMap;
     }
+
+
+    public static void soyismineUygunArama(Map<Integer, String> ogrenciMap, String soyisim) {
+
+        Collection<String> valueCollection = ogrenciMap.values();
+
+        int siraNo = 1;
+
+        for (String eachValue: valueCollection
+             ) {
+            String[] eachArr = eachValue.split("-");
+            if (eachArr[1].equals(soyisim)){
+                System.out.println(siraNo + "-" + eachArr[0] +" "+ eachArr[1]);
+                siraNo++;
+            }
+
+        }
+
+
+    }
 }
+

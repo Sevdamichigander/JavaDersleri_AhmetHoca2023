@@ -6,12 +6,15 @@ import java.util.Set;
 
 public class C03_Keys {
     public static void main(String[] args) {
+
         // her class'da map ile islem yapabilmek icin
         // bir map olusturmak ve ogrencileri eklemek zorundayiz
         // Mapmethod'lar class'inda bir map olusturup,
         // ogrencileri ekleyip bize donduren bir method olusturalim
         /*
+
         Map<Integer,String> ogrenciMap = new HashMap<>();
+
         ogrenciMap.put(101,"Ali-Can-11-H-MF");
         ogrenciMap.put(102,"Veli-Cem-10-K-TM");
         ogrenciMap.put(103,"Ali-Cem-11-K-TM");
@@ -20,11 +23,13 @@ public class C03_Keys {
         ogrenciMap.put(106,"Sevgi-Can-10-K-MF");
 
          */
+
         Map<Integer,String> ogrenciMap = Map_Methodlar.ogrenciMapOlustur();
 
         // Map'deki tum key'leri yazdirin
 
         System.out.println(ogrenciMap.keySet()); // [101, 102, 103, 104, 105, 106]
+
 
         // bu seti kaydetmek istersek
 
@@ -37,6 +42,7 @@ public class C03_Keys {
          */
 
         int siraNo=1;
+
         for (Integer eachKey: keySeti
         ) {
             System.out.println(siraNo + "- "+ eachKey);

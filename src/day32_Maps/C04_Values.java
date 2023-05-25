@@ -40,5 +40,9 @@ public class C04_Values {
         // verilen sube'deki tum ogrencileri yazdirin
         // verilen sinif ve sube'deki tum ogrencileri yazdirin
 
+        Map_Methodlar.soyismineUygunArama(ogrenciMap, "Can");
+
         }
-}
+
+    }
+

@@ -24,8 +24,10 @@ public class C02_DatayaErisim {
         ogrenciMap.put(105,"Sevgi-Cem-11-M-TM");
         ogrenciMap.put(106,"Sevgi-Can-10-K-MF");
 
-        //        map ve ogrenci numarasi verdigimizde, istenen formatta
-        //        isim soyisim bilgisini bize donduren bir method olusturalim
+        /*
+            map ve ogrenci numarasi verdigimizde, istenen formatta
+            isim soyisim bilgisini bize donduren bir method olusturalim
+          */
 
         System.out.println(Map_Methodlar.numaraIleOgrenciBulma(ogrenciMap, 103));
         System.out.println(Map_Methodlar.numaraIleOgrenciBulma(ogrenciMap, 105));

@@ -9,6 +9,7 @@ public class C01_MapOlusturma {
         String str= "Java Candir";
 
         // coklu element barindiran collections olusturma
+
         List<String> liste = new ArrayList<>();
         Set<Integer> sayiSeti = new HashSet<>();
         liste.add("4");
@@ -35,10 +36,19 @@ public class C01_MapOlusturma {
 
         System.out.println(ogrenciMap.get(101)); // Ali-Can-11-H-MF
 
+
         // 103 numarali ogrencinin subesini yazdirin
         // Map'de tum bilgiler String olarak birlestirilen value icerisindedir
         // String'deki bir bilgiye direk ulasamayiz
         // manipulation yapip istedigimiz bilgiye ulasmaliyiz
+
+        // 1- once istenen ogrencinin value'sunu bulalim ve kaydedelim
+        // 2- value ozel bir isaretle birlestirilen farkli bilgilerden olusur
+        //    split("-") ile bu bilgileri bir array'e donusturup kaydedelim
+        // 3- artik istedigim bilgiye tanimli index ile ulasabilirim
+
+
+
         // 1- once istenen ogrencinin value'sunu bulalim ve kaydedelim
 
         String value103= ogrenciMap.get(103); // Ali-Cem-11-K-TM
@@ -51,6 +61,10 @@ public class C01_MapOlusturma {
         // 3- artik istedigim bilgiye tanimli index ile ulasabilirim
 
         System.out.println(valueArr[3]); // K
-  }
+
+        // gonder parcala degistir birlestir
+
+
+    }
 }
 
