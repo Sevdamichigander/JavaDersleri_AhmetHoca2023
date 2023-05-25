@@ -164,5 +164,36 @@ public class Map_Methodlar {
 
 
     }
+
+    public static void numaraliTumOgrenciListesiYazdir(Map<Integer, String> ogrenciMap) {
+
+        Set<Map.Entry<Integer, String>> ogrenciEntrySeti = ogrenciMap.entrySet();
+
+        // Bu sekilde map ile degil set ile ugrasmis olacagiz
+        // set i tek bir for each loop ile hem key e ham de value ye ulasabilecegiz.
+        System.out.println("No  Isim    Soyisim     Sinif");
+        System.out.println("------------------------------");
+
+        for (Map.Entry<Integer, String> eachEntry:ogrenciEntrySeti
+             ) {
+
+            String ogrenciValue = eachEntry.getValue(); // 101=Ali-Can-11-H-MF
+            String[] ogrenciValueArr = ogrenciValue.split("-");
+
+            System.out.println(eachEntry.getKey() + " " + ogrenciValueArr[0] + " " +
+                    ogrenciValueArr[1] + " " +
+                    ogrenciValueArr[2]);
+
+        }
+        /*
+                    101=Ali-Can-11-H-MF
+                    102=Veli-Cem-10-K-TM
+                    103=Ali-Cem-11-K-TM
+                    104=Ayse-Can-10-H-MF
+                    105=Sevgi-Cem-11-M-TM
+                    106=Sevgi-Can-10-K-MF
+         */
+
+    }
 }
 
