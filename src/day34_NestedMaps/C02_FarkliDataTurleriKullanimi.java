@@ -60,10 +60,5 @@ public class C02_FarkliDataTurleriKullanimi {
         }else {
             System.out.println("Hoscakal");
         }
-
-
-
-
-
     }
 }
