@@ -77,6 +77,7 @@ public class Map_Methodlar {
     public static void istenenSiniftakiOgrencileriYazdir(Map<Integer, String> ogrenciMap, int sinif) {
 
         // istenen siniftaki tum ogrencilerin isim ve soyismlerini yazdirin
+
         // value'lari kaydedelim
 
         Collection<String> valueCollection = ogrenciMap.values();
@@ -118,8 +119,11 @@ public class Map_Methodlar {
             if (basNo<= eachKey && eachKey<=bitNo){
                 // istenen araliktaki key'ler buraya ulasir, ornegin 103
                 // burada o key'e ait isim, soyisim ve bolum'e ulasmaliyiz
+
                 String value = ogrenciMap.get(eachKey); // Ali-Can-11-H-MF
+
                 String[] valueArr= value.split("-"); // [Ali, Can, 11, H, MF]
+
                 System.out.println( siraNo +"- "+
                         eachKey + " "+
                         valueArr[0]+ " "+
@@ -132,14 +136,47 @@ public class Map_Methodlar {
 
     public static Map<Integer, String> numaraIleSoyisimUpdateEt(Map<Integer, String> ogrenciMap, int ogrenciNo, String yeniSoyisim) {
 
-        //102 numarali ogrencinin value sunu kaydet  Veli-Cem-10-K-TM
-        // update yapabilmek icin bilgileri split etmeliyiz  [Veli,Cem,10,K,TM]
-
-        // Bu array de soyisim olarak yeni soyismi atayabilirim [Veli,Han,10,K,TM]
-        // bu array de ki guncel bilgileri value yapisina uygun olarak yeniden birlestirmaliyiz Veli-Han-10-K-TM
-        // 102 numarali ogrenciyi yeni value su ile map e ekleyelim
 
         // parcala - degistir - birlestir
+
+        // 102 numarali ogrencinin value'sunu kaydet  Veli-Cem-10-K-TM
+
+        String value=ogrenciMap.get(ogrenciNo);
+
+        // update yapabilmek icin bilgileri split etmeliyiz [Veli, Cem, 10, K, TM]
+
+        String[] valueArr = value.split("-");
+
+        // bu array'de soyisim olarak yeni soyismi atayabilirim [Veli, Han, 10, K, TM]
+
+        valueArr[1]= yeniSoyisim;
+
+        // bu array'deki guncel bilgileri value yapisina uygun olarak yeniden birlestirmeliyiz
+        // Veli-Han-10-K-TM
+
+        value= valueArr[0]+"-"+valueArr[1]+"-"+valueArr[2]+"-"+valueArr[3]+"-"+valueArr[4];
+
+        // 102 numarali ogrenciyi yeni value'su ile map'e ekleyelim
+
+        ogrenciMap.put(ogrenciNo,value);
+        // key'ler unique oldugu icin
+
+        // varolan bir elementi yeniden eklemek isterseniz
+        // key varoldugu icin, eski value'yu silip, yeni value yapar
+
+        /*
+        Grup calismasinda yapilan
+
+        String[]ogrenciArr= ogrenciMap.get(103).split("-"); burda parcaladik
+
+        ogrenciArr[1]="Han"; burda degistirdik
+
+        ogrenciMap.put( 103, ogrenciArr[0]+"-"+ ogrenciArr[1]+"-"+ ogrenciArr[2]+"-" +ogrenciArr[3]+"-" +ogrenciArr[4]); burda birlestirdik
+
+        System.out.println(ogrenciMap);
+
+
+         */
 
 
     return  ogrenciMap;

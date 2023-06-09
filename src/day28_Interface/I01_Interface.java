@@ -8,7 +8,7 @@ public interface I01_Interface {
         Interface'in deklarasyonunda abstract yazmamiza gerek yoktur
         java otomatik olarak Interface'leri abstract tanimlar
 
-        Ayni sekilde Interface'ler icerisinde olusturulan methodf'lar icin de
+        Ayni sekilde Interface'ler icerisinde olusturulan method'lar icin de
         public veya abstract yazmaya gerek yoktur
         Java tum method'lari public ve abstract olarak kabul eder
 

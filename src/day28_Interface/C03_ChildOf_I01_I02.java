@@ -10,7 +10,7 @@ public class C03_ChildOf_I01_I02 extends C04_Toyota implements I01_Interface, I0
     Bir class birden fazla class'i inherit EDEMEZ
     ANCAK
     bir child class 1 class'i inherit ederken,
-    ayni zamanda baska Interface(ler)i de inherit edebilir
+    ayni zamanda baska Interface(ler)i de inherit/implement? edebilir
 
     Birden fazla Interface'i inherit etmek istedigimizde
     dikkat etmemiz gerek konu :

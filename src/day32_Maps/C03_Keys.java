@@ -11,6 +11,7 @@ public class C03_Keys {
         // bir map olusturmak ve ogrencileri eklemek zorundayiz
         // Mapmethod'lar class'inda bir map olusturup,
         // ogrencileri ekleyip bize donduren bir method olusturalim
+
         /*
 
         Map<Integer,String> ogrenciMap = new HashMap<>();
@@ -30,10 +31,11 @@ public class C03_Keys {
 
         System.out.println(ogrenciMap.keySet()); // [101, 102, 103, 104, 105, 106]
 
+        // keyset( ) ve values( ) method’lari Collection olarak key ve value degerlerini verir.
 
         // bu seti kaydetmek istersek
 
-        Set<Integer> keySeti = ogrenciMap.keySet();
+        Set<Integer> keySeti = ogrenciMap.keySet(); // map imizin entry lerindeki keyleri getiriyor
 
         /* KeySeti'deki ogrenci numaralarini asagidaki formatta yazdirin
             1- 101

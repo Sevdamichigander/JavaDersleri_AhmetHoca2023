@@ -58,6 +58,9 @@ public class C01_MapOlusturma {
 
         String[] valueArr = value103.split("-"); // [Ali, Cem, 11, K, TM]
 
+        System.out.println(Arrays.toString(valueArr));
+
+
         // 3- artik istedigim bilgiye tanimli index ile ulasabilirim
 
         System.out.println(valueArr[3]); // K
